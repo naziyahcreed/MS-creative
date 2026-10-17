@@ -1,0 +1,135 @@
+/* =========================================================
+   ADMIN DASHBOARD: PREMIUM IVORY & CHAMPAGNE-GOLD THEME
+   ========================================================= */
+
+.admin-theme {
+  --admin-ivory: #faf7f2;
+  --admin-ivory-card: #ffffff;
+  --admin-ivory-dark: #f2ebe1;
+  --admin-gold: #c5a869;
+  --admin-gold-hover: #b39554;
+  --admin-gold-light: #f7f1e4;
+  --admin-gold-border: rgba(197, 168, 105, 0.4);
+  --admin-charcoal: #251d18;
+  --admin-espresso: #1a1411;
+  --admin-muted: #75675e;
+
+  background-color: var(--admin-ivory);
+  color: var(--admin-charcoal);
+  font-family: 'Outfit', system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+}
+
+.admin-theme h1,
+.admin-theme h2,
+.admin-theme h3,
+.admin-theme .font-serif-luxury {
+  font-family: 'Cinzel', 'Cormorant Garamond', Georgia, serif;
+}
+
+.admin-card {
+  background: var(--admin-ivory-card);
+  border: 1px solid var(--admin-gold-border);
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(37, 29, 24, 0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.admin-card:hover {
+  box-shadow: 0 10px 28px rgba(197, 168, 105, 0.12);
+  border-color: var(--admin-gold);
+}
+
+.gold-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  background: var(--admin-gold-light);
+  color: #7d632c;
+  border: 1px solid rgba(197, 168, 105, 0.5);
+}
+
+.btn-gold-primary {
+  background: linear-gradient(135deg, #d8bc7f 0%, #c5a869 50%, #ad8f4e 100%);
+  color: #1a1411;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  padding: 0.65rem 1.4rem;
+  box-shadow: 0 4px 12px rgba(197, 168, 105, 0.3);
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.btn-gold-primary:hover {
+  background: linear-gradient(135deg, #e2c992 0%, #d1b474 50%, #b89956 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(197, 168, 105, 0.4);
+}
+
+.btn-gold-secondary {
+  background: #ffffff;
+  color: #3b2c24;
+  font-weight: 600;
+  border: 1.5px solid var(--admin-gold);
+  border-radius: 0.75rem;
+  padding: 0.65rem 1.4rem;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.btn-gold-secondary:hover {
+  background: var(--admin-gold-light);
+  color: #1a1411;
+  border-color: #b39554;
+  transform: translateY(-1px);
+}
+
+.admin-input {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  border-radius: 0.75rem;
+  border: 1.5px solid #dfd7cc;
+  background: #ffffff;
+  color: #251d18;
+  font-size: 0.925rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.admin-input:focus {
+  outline: none;
+  border-color: var(--admin-gold);
+  box-shadow: 0 0 0 3px rgba(197, 168, 105, 0.18);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #8a6c31 0%, #c5a869 50%, #705421 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.photo-upload-zone {
+  border: 2px dashed rgba(197, 168, 105, 0.6);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  background: rgba(247, 241, 228, 0.4);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.photo-upload-zone:hover {
+  border-color: var(--admin-gold);
+  background: rgba(247, 241, 228, 0.8);
+}

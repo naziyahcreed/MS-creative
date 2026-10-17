@@ -1,0 +1,70 @@
+{
+  "id": "client-002",
+  "slug": "meenakshi-sundaram-k7m91",
+  "templateId": "template-02",
+  "brideName": "Meenakshi",
+  "groomName": "Sundareswarar",
+  "brideNameTamil": "மீனாட்சி",
+  "groomNameTamil": "சுந்தரேஸ்வரர்",
+  "parents": {
+    "bride": "Thiru. K. Rajagopalan & Thirumathi. R. Vasantha",
+    "groom": "Thiru. V. Sundaram & Thirumathi. S. Kalyani"
+  },
+  "hashtag": "#MeenakshiWedsSundar",
+  "photos": {
+    "bride": "/invitations/client-002/bride.jpg",
+    "groom": "/invitations/client-002/groom.jpg",
+    "couple": "/invitations/client-002/couple.jpg"
+  },
+  "events": [
+    {
+      "id": "engagement",
+      "title": "Nischayathartham",
+      "titleTamil": "நிச்சயதார்த்தம்",
+      "date": "2026-11-14",
+      "time": "18:00",
+      "venueName": "Raja Muthiah Mandram",
+      "venueNameTamil": "ராஜா முத்தையா மன்றம்",
+      "venueAddress": "KK Nagar, Madurai",
+      "venueAddressTamil": "கே.கே. நகர், மதுரை",
+      "mapsUrl": "https://maps.google.com/?q=Raja+Muthiah+Mandram+Madurai",
+      "image": "/invitations/client-002/event-engagement.jpg"
+    },
+    {
+      "id": "wedding",
+      "title": "Subha Muhurtham",
+      "titleTamil": "சுபமுகூர்த்தம்",
+      "date": "2026-11-15",
+      "time": "09:15",
+      "venueName": "Arulmigu Subramaniya Swamy Thirukovil",
+      "venueNameTamil": "அருள்மிகு சுப்பிரமணிய சுவாமி திருக்கோவில்",
+      "venueAddress": "Thiruparankundram, Madurai",
+      "venueAddressTamil": "திருப்பரங்குன்றம், மதுரை",
+      "mapsUrl": "https://maps.google.com/?q=Thiruparankundram+Murugan+Temple",
+      "image": "/invitations/client-002/event-wedding.jpg"
+    },
+    {
+      "id": "reception",
+      "title": "Wedding Reception",
+      "titleTamil": "மங்கல வரவேற்பு",
+      "date": "2026-11-15",
+      "time": "19:00",
+      "venueName": "The Gateway Hotel Pasumalai",
+      "venueNameTamil": "தி கேட்வே ஹோட்டல் பசுமலை",
+      "venueAddress": "Pasumalai Hills, Madurai",
+      "venueAddressTamil": "பசுமலை, மதுரை",
+      "mapsUrl": "https://maps.google.com/?q=The+Gateway+Hotel+Pasumalai+Madurai",
+      "image": "/invitations/client-002/event-reception.jpg"
+    }
+  ],
+  "messages": {
+    "customTamil": "இறைவனின் திருவருளாலும், பெரியோர்களின் நல்லாசிகளாலும் எங்கள் இல்லத் திருமண விழாவிற்கு தாங்களும் தங்கள் குடும்பத்தாரும் வருகை தந்து வாழ்த்த வேண்டுகிறோம்.",
+    "customEnglish": "With the divine blessings of our beloved deity and our revered elders, we invite you to grace our marriage ceremony."
+  },
+  "rsvpPhone": "+91 94433 22110",
+  "musicUrl": "/wedding-music.mp3",
+  "expiresAt": "2027-02-01T23:59:00",
+  "status": "published",
+  "createdAt": "2026-10-17T12:00:00.000Z",
+  "updatedAt": "2026-10-17T12:00:00.000Z"
+}

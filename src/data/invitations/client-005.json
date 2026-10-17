@@ -1,0 +1,57 @@
+{
+  "id": "client-005",
+  "slug": "amaya-rohan-z8p23",
+  "templateId": "template-05",
+  "brideName": "Amaya",
+  "groomName": "Rohan",
+  "brideNameTamil": "அமயா",
+  "groomNameTamil": "ரோஹன்",
+  "parents": {
+    "bride": "Mr. & Mrs. Wickramasinghe",
+    "groom": "Mr. & Mrs. Senanayake"
+  },
+  "hashtag": "#AmayaAndRohan2026",
+  "photos": {
+    "bride": "/templates/template-05/preview.jpg",
+    "groom": "/invitations/client-001/groom.jpg",
+    "couple": "/templates/template-05/preview.jpg"
+  },
+  "events": [
+    {
+      "id": "ceremony",
+      "title": "Marriage Solemnization",
+      "titleTamil": "திருமண சடங்கு",
+      "date": "2026-11-28",
+      "time": "10:00 AM",
+      "venueName": "St. Mary's Church",
+      "venueNameTamil": "செயின்ட் மேரிஸ் தேவாலயம்",
+      "venueAddress": "Galle Road, Colombo",
+      "venueAddressTamil": "காலி ரோடு, கொழும்பு",
+      "mapsUrl": "https://maps.google.com/?q=St+Marys+Church+Colombo",
+      "image": "/invitations/client-001/event-wedding.jpg"
+    },
+    {
+      "id": "reception",
+      "title": "Grand Banquet & Celebration",
+      "titleTamil": "மங்கல இரவு விருந்து",
+      "date": "2026-11-28",
+      "time": "07:00 PM",
+      "venueName": "The Kingsbury Grand Ballroom",
+      "venueNameTamil": "தி கிங்ஸ்பரி ஹோட்டல்",
+      "venueAddress": "Colombo Waterfront",
+      "venueAddressTamil": "கொழும்பு வாட்டர்பிரண்ட்",
+      "mapsUrl": "https://maps.google.com/?q=The+Kingsbury+Colombo",
+      "image": "/invitations/client-001/event-reception.jpg"
+    }
+  ],
+  "messages": {
+    "customTamil": "எங்கள் வாழ்வின் இந்த இனிய தொடக்கத்திற்கு தாங்களும் தங்கள் குடும்பத்தாரும் வருகை தந்து வாழ்த்த வேண்டுகிறோம்.",
+    "customEnglish": "Join us as we step into our forever surrounded by the people we love the most."
+  },
+  "rsvpPhone": "+94 77 123 4567",
+  "musicUrl": "/music.mp3",
+  "expiresAt": "2027-05-01T23:59:00",
+  "status": "published",
+  "updatedAt": "2026-10-17T12:00:00.000Z",
+  "createdAt": "2026-10-17T12:00:00.000Z"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "client-003",
+  "slug": "ananya-karthik-x9q12",
+  "templateId": "template-03",
+  "brideName": "Ananya",
+  "groomName": "Karthik",
+  "brideNameTamil": "அனன்யா",
+  "groomNameTamil": "கார்த்திக்",
+  "parents": {
+    "bride": "Dr. V. Chandrasekar & Mrs. Shanti Chandrasekar",
+    "groom": "Mr. K. Narayanan & Mrs. Radha Narayanan"
+  },
+  "hashtag": "#AnanyaWedsKarthik",
+  "photos": {
+    "bride": "/invitations/client-001/bride.jpg",
+    "groom": "/invitations/client-001/groom.jpg",
+    "couple": "/templates/template-03/preview.jpg"
+  },
+  "events": [
+    {
+      "id": "wedding",
+      "title": "Pastel Garden Muhurtham",
+      "titleTamil": "சுபமுகூர்த்தம்",
+      "date": "2026-11-20",
+      "time": "09:30 AM",
+      "venueName": "The Botanical Glasshouse",
+      "venueNameTamil": "தி பொட்டானிக்கல் கிளாஸ்ஹவுஸ்",
+      "venueAddress": "Palace Grounds, Bangalore",
+      "venueAddressTamil": "அரண்மனை மைதானம், பெங்களூரு",
+      "mapsUrl": "https://maps.google.com/?q=Bangalore+Palace",
+      "image": "/invitations/client-001/event-wedding.jpg"
+    },
+    {
+      "id": "reception",
+      "title": "Evening Floral Gala",
+      "titleTamil": "மங்கல வரவேற்பு",
+      "date": "2026-11-20",
+      "time": "06:30 PM",
+      "venueName": "The Grand Floral Lawn",
+      "venueNameTamil": "தி கிராண்ட் ஃப்ளோரல் லான்",
+      "venueAddress": "Green Valley, Bangalore",
+      "venueAddressTamil": "கிரீன் வேலி, பெங்களூரு",
+      "mapsUrl": "https://maps.google.com/?q=Bangalore",
+      "image": "/invitations/client-001/event-reception.jpg"
+    }
+  ],
+  "messages": {
+    "customTamil": "எங்கள் இல்லத் திருமண விழாவிற்கு தாங்களும் தங்கள் குடும்பத்தாரும் வருகை தந்து வாழ்த்த வேண்டுகிறோம்.",
+    "customEnglish": "We warmly invite you to celebrate our union amidst blooming flowers and loving hearts."
+  },
+  "rsvpPhone": "+91 99887 76655",
+  "musicUrl": "/music.mp3",
+  "expiresAt": "2027-03-01T23:59:00",
+  "status": "published",
+  "updatedAt": "2026-10-17T12:00:00.000Z",
+  "createdAt": "2026-10-17T12:00:00.000Z"
+}

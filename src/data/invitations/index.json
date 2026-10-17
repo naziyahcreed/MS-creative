@@ -1,0 +1,80 @@
+[
+  {
+    "id": "client-001",
+    "slug": "niveditha-natraj-a8k42",
+    "templateId": "template-01",
+    "brideName": "Niveditha",
+    "groomName": "Natraj",
+    "weddingDate": "2026-10-25",
+    "status": "published",
+    "expiresAt": "2027-01-01T23:59:00",
+    "createdAt": "2026-10-17T12:00:00.000Z",
+    "updatedAt": "2026-10-17T12:00:00.000Z",
+    "dataFile": "/invitations/client-001/invitation.json"
+  },
+  {
+    "id": "client-002",
+    "slug": "meenakshi-sundaram-k7m91",
+    "templateId": "template-02",
+    "brideName": "Meenakshi",
+    "groomName": "Sundareswarar",
+    "weddingDate": "2026-11-15",
+    "status": "published",
+    "expiresAt": "2027-02-01T23:59:00",
+    "createdAt": "2026-10-17T12:00:00.000Z",
+    "updatedAt": "2026-10-17T12:00:00.000Z",
+    "dataFile": "/invitations/client-002/invitation.json"
+  },
+  {
+    "id": "client-003",
+    "slug": "ananya-karthik-x9q12",
+    "templateId": "template-03",
+    "brideName": "Ananya",
+    "groomName": "Karthik",
+    "weddingDate": "2026-11-20",
+    "status": "published",
+    "expiresAt": "2027-03-01T23:59:00",
+    "createdAt": "2026-10-17T12:00:00.000Z",
+    "updatedAt": "2026-10-17T12:00:00.000Z",
+    "dataFile": "/invitations/client-003/invitation.json"
+  },
+  {
+    "id": "client-004",
+    "slug": "anjelia-mathew-r4t78",
+    "templateId": "template-04",
+    "brideName": "Anjelia",
+    "groomName": "Mathew",
+    "weddingDate": "2026-11-29",
+    "status": "published",
+    "expiresAt": "2027-04-01T23:59:00",
+    "createdAt": "2026-10-17T12:00:00.000Z",
+    "updatedAt": "2026-10-17T12:00:00.000Z",
+    "dataFile": "/invitations/client-004/invitation.json"
+  },
+  {
+    "id": "client-005",
+    "slug": "amaya-rohan-z8p23",
+    "templateId": "template-05",
+    "brideName": "Amaya",
+    "groomName": "Rohan",
+    "weddingDate": "2026-11-28",
+    "status": "published",
+    "expiresAt": "2027-05-01T23:59:00",
+    "createdAt": "2026-10-17T12:00:00.000Z",
+    "updatedAt": "2026-10-17T12:00:00.000Z",
+    "dataFile": "/invitations/client-005/invitation.json"
+  },
+  {
+    "id": "client-006",
+    "slug": "roshni-rahul-m2k99",
+    "templateId": "template-06",
+    "brideName": "Roshni",
+    "groomName": "Rahul",
+    "weddingDate": "2026-12-05",
+    "status": "published",
+    "expiresAt": "2027-06-01T23:59:00",
+    "createdAt": "2026-10-17T12:00:00.000Z",
+    "updatedAt": "2026-10-17T12:00:00.000Z",
+    "dataFile": "/invitations/client-006/invitation.json"
+  }
+]

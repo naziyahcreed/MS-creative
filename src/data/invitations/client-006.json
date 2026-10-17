@@ -1,0 +1,57 @@
+{
+  "id": "client-006",
+  "slug": "roshni-rahul-m2k99",
+  "templateId": "template-06",
+  "brideName": "Roshni",
+  "groomName": "Rahul",
+  "brideNameTamil": "ரோஷினி",
+  "groomNameTamil": "ராஹுல்",
+  "parents": {
+    "bride": "Mr. & Mrs. Rajesh Sharma",
+    "groom": "Mr. & Mrs. Vijay Kapoor"
+  },
+  "hashtag": "#RoshniWedsRahul2026",
+  "photos": {
+    "bride": "/invitations/client-001/bride.jpg",
+    "groom": "/invitations/client-001/groom.jpg",
+    "couple": "/templates/template-06/preview.jpg"
+  },
+  "events": [
+    {
+      "id": "wedding",
+      "title": "Wedding Muhurtham Ceremony",
+      "titleTamil": "சுபமுகூர்த்தம்",
+      "date": "2026-12-05",
+      "time": "09:30 AM",
+      "venueName": "The Royal Taj Heritage Palace",
+      "venueNameTamil": "தி ராயல் தாஜ் ஹெரிடேஜ் பேலஸ்",
+      "venueAddress": "Palace Road, Central Heritage District",
+      "venueAddressTamil": "பேலஸ் ரோடு, சென்னை",
+      "mapsUrl": "https://maps.google.com/?q=Taj+Palace",
+      "image": "/invitations/client-001/event-wedding.jpg"
+    },
+    {
+      "id": "reception",
+      "title": "Grand Royal Reception",
+      "titleTamil": "மங்கல வரவேற்பு",
+      "date": "2026-12-05",
+      "time": "07:00 PM",
+      "venueName": "Grand Royal Waterfront Lawns",
+      "venueNameTamil": "கிராண்ட் ராயல் வாட்டர்பிரண்ட் லான்ஸ்",
+      "venueAddress": "Lake View Enclave",
+      "venueAddressTamil": "லேக் வியூ என்கிளேவ்",
+      "mapsUrl": "https://maps.google.com/?q=Grand+Lawn",
+      "image": "/invitations/client-001/event-reception.jpg"
+    }
+  ],
+  "messages": {
+    "customTamil": "இறைவனின் திருவருளாலும் பெரியோர்களின் ஆசிகளாலும் எங்கள் இல்லத் திருமண விழாவிற்கு வருகை தந்து மணமக்களை வாழ்த்த அன்புடன் அழைக்கிறோம்.",
+    "customEnglish": "With the love and blessings of our families and elders, we invite you to grace our wedding celebrations."
+  },
+  "rsvpPhone": "+91 98888 77777",
+  "musicUrl": "/wedding-music.mp3",
+  "expiresAt": "2027-06-01T23:59:00",
+  "status": "published",
+  "updatedAt": "2026-10-17T12:00:00.000Z",
+  "createdAt": "2026-10-17T12:00:00.000Z"
+}

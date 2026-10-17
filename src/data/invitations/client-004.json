@@ -1,0 +1,57 @@
+{
+  "id": "client-004",
+  "slug": "anjelia-mathew-r4t78",
+  "templateId": "template-04",
+  "brideName": "Anjelia",
+  "groomName": "Mathew",
+  "brideNameTamil": "அஞ்சலியா",
+  "groomNameTamil": "மேத்யூ",
+  "parents": {
+    "bride": "Mr. Joseph Fernandes & Mrs. Maria Fernandes",
+    "groom": "Mr. Thomas D'Souza & Mrs. Grace D'Souza"
+  },
+  "hashtag": "#AnjeliaMathew2026",
+  "photos": {
+    "bride": "/invitations/client-002/bride.jpg",
+    "groom": "/invitations/client-002/groom.jpg",
+    "couple": "/templates/template-04/preview.jpg"
+  },
+  "events": [
+    {
+      "id": "ceremony",
+      "title": "Holy Matrimony & Nuptial Mass",
+      "titleTamil": "திருமண திருப்பலி",
+      "date": "2026-11-29",
+      "time": "10:30 AM",
+      "venueName": "St. Patrick's Cathedral",
+      "venueNameTamil": "தூய பேட்ரிக் பெருங்கோவில்",
+      "venueAddress": "Brigade Road, Bangalore",
+      "venueAddressTamil": "பிரிிகேட் ரோடு, பெங்களூரு",
+      "mapsUrl": "https://maps.google.com/?q=St+Patricks+Bangalore",
+      "image": "/invitations/client-002/event-wedding.jpg"
+    },
+    {
+      "id": "reception",
+      "title": "Grand Banquet & Ball",
+      "titleTamil": "மங்கல விருந்து",
+      "date": "2026-11-29",
+      "time": "06:30 PM",
+      "venueName": "The Leela Palace Grand Ballroom",
+      "venueNameTamil": "தி லீலா பேலஸ்",
+      "venueAddress": "Old Airport Road, Bangalore",
+      "venueAddressTamil": "பழைய விமான நிலைய ரோடு, பெங்களூரு",
+      "mapsUrl": "https://maps.google.com/?q=The+Leela+Palace+Bangalore",
+      "image": "/invitations/client-002/event-reception.jpg"
+    }
+  ],
+  "messages": {
+    "customTamil": "கர்த்தரின் ஆசீருடன் எங்கள் திருமண விழாவிற்கு வருகை தந்து ஆசீர்வதிக்க வேண்டுகிறோம்.",
+    "customEnglish": "With joyful hearts and the blessings of the Almighty, we invite you to celebrate our holy union."
+  },
+  "rsvpPhone": "+91 97766 55443",
+  "musicUrl": "/wedding-music.mp3",
+  "expiresAt": "2027-04-01T23:59:00",
+  "status": "published",
+  "updatedAt": "2026-10-17T12:00:00.000Z",
+  "createdAt": "2026-10-17T12:00:00.000Z"
+}

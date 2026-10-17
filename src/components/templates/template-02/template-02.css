@@ -1,0 +1,478 @@
+/* =========================================================
+   TEMPLATE 02: AUTHENTIC TEMPLE MANDAPAM THEME STYLES
+   ========================================================= */
+
+:root {
+  --color-temple-red: #740a18;
+  --color-temple-red-dark: #4e0510;
+  --color-temple-red-deep: #38030b;
+  --color-temple-maroon: #8b1e2e;
+  --color-gold-bright: #ffe682;
+  --color-gold-antique: #c99a36;
+  --color-gold-line: #dfb557;
+  --color-gold-dark: #91681e;
+  --color-ivory: #fffdf9;
+  --color-ivory-dark: #f8f1e2;
+  --color-sandalwood: #edd9b8;
+  --color-kumkum: #9b111e;
+  --color-haldi: #ffb703;
+  --color-text-brown: #2e1710;
+}
+
+.template-02-wrapper {
+  background-color: #12070a;
+  color: #2e1710;
+  min-height: 100vh;
+}
+
+.temple-void-bg {
+  background: radial-gradient(circle at 50% 10%, #3e0b13 0%, #1c050a 50%, #0d0205 100%);
+}
+
+.temple-gold-gradient {
+  background: linear-gradient(135deg, #fff3c4 0%, #dfb557 35%, #b38222 70%, #f6d267 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.temple-card-gold-border {
+  border: 1.5px solid rgba(223, 181, 87, 0.45);
+  box-shadow: 0 10px 30px rgba(78, 5, 16, 0.08), 0 0 20px rgba(223, 181, 87, 0.12);
+}
+
+.temple-mandapam-frame {
+  background-color: var(--color-ivory);
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(255, 243, 196, 0.4) 0%, transparent 40%),
+    linear-gradient(to bottom, #fffdfa 0%, #faf4e6 100%);
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .temple-mandapam-frame {
+    margin: 2rem auto;
+    border-radius: 2rem;
+    box-shadow: 
+      0 0 0 3px rgba(223, 181, 87, 0.4),
+      0 0 0 8px rgba(116, 10, 24, 0.8),
+      0 25px 70px rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+  }
+}
+
+.zari-border-top {
+  height: 12px;
+  background: repeating-linear-gradient(
+    45deg,
+    #b38222,
+    #b38222 6px,
+    #dfb557 6px,
+    #dfb557 12px,
+    #740a18 12px,
+    #740a18 18px
+  );
+  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+}
+
+.zari-border-bottom {
+  height: 12px;
+  background: repeating-linear-gradient(
+    -45deg,
+    #b38222,
+    #b38222 6px,
+    #dfb557 6px,
+    #dfb557 12px,
+    #740a18 12px,
+    #740a18 18px
+  );
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.25);
+}
+
+.toranam-bar {
+  background-image: radial-gradient(circle at 10px 0, #2c7a38 8px, transparent 9px);
+  background-size: 20px 16px;
+  background-repeat: repeat-x;
+  height: 16px;
+}
+
+@keyframes flameFlicker {
+  0%, 100% {
+    transform: scale(1) translate(0, 0);
+    opacity: 0.95;
+    filter: drop-shadow(0 0 8px #ffb703) drop-shadow(0 0 16px #ff7b00);
+  }
+  25% {
+    transform: scale(1.08, 0.94) translate(1px, -1px);
+    opacity: 1;
+    filter: drop-shadow(0 0 10px #ffe682) drop-shadow(0 0 20px #ffb703);
+  }
+  50% {
+    transform: scale(0.95, 1.05) translate(-1px, 0);
+    opacity: 0.9;
+    filter: drop-shadow(0 0 6px #ffb703);
+  }
+  75% {
+    transform: scale(1.04, 0.98) translate(0, -1px);
+    opacity: 0.98;
+    filter: drop-shadow(0 0 12px #ffe682) drop-shadow(0 0 22px #ff7b00);
+  }
+}
+
+.flame-animated {
+  animation: flameFlicker 2.5s infinite ease-in-out;
+  transform-origin: center bottom;
+}
+
+@keyframes bellSwing {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(6deg); }
+  75% { transform: rotate(-6deg); }
+}
+
+.bell-swing {
+  animation: bellSwing 4s infinite ease-in-out;
+  transform-origin: top center;
+}
+
+@keyframes goldShimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.gold-shimmer-btn {
+  background: linear-gradient(90deg, #b38222 0%, #ffe682 50%, #b38222 100%);
+  background-size: 200% 100%;
+  animation: goldShimmer 3.5s infinite linear;
+}
+
+.section-container {
+  padding: 3.5rem 1.25rem;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .section-container {
+    padding: 4.5rem 2rem;
+  }
+}
+
+.section-tone-cream {
+  background-color: #faf4e6;
+  border-top: 1px solid rgba(223, 181, 87, 0.3);
+  border-bottom: 1px solid rgba(223, 181, 87, 0.3);
+}
+
+.section-tone-white {
+  background-color: #fffdf9;
+}
+
+.section-tone-red {
+  background: radial-gradient(circle at 50% 20%, #740a18 0%, #4e0510 60%, #38030b 100%);
+  color: #fffdf9;
+  border-top: 2px solid #dfb557;
+  border-bottom: 2px solid #dfb557;
+}
+
+.section-head {
+  text-align: center;
+  margin-bottom: 2.25rem;
+}
+
+.section-badge {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 0.25rem 1rem;
+  border-radius: 9999px;
+  background: rgba(116, 10, 24, 0.08);
+  color: #740a18;
+  border: 1px solid rgba(223, 181, 87, 0.5);
+  margin-bottom: 0.75rem;
+}
+
+.section-tone-red .section-badge {
+  background: rgba(255, 243, 196, 0.15);
+  color: #ffe682;
+  border-color: rgba(223, 181, 87, 0.6);
+}
+
+.section-main-title {
+  font-size: clamp(1.65rem, 5vw, 2.35rem);
+  font-weight: 800;
+  color: #740a18;
+  line-height: 1.2;
+}
+
+.section-tone-red .section-main-title {
+  color: #ffe682;
+}
+
+.section-subtitle {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: #5c3622;
+}
+
+.section-tone-red .section-subtitle {
+  color: #f8eed6;
+}
+
+.gold-flourish {
+  margin-top: 0.75rem;
+  color: #dfb557;
+  font-size: 1.15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.gold-flourish::before,
+.gold-flourish::after {
+  content: '';
+  height: 1px;
+  width: 48px;
+  background: linear-gradient(to right, transparent, #dfb557, transparent);
+}
+
+.ceremony-item-card {
+  position: relative;
+  background: #ffffff;
+  border-radius: 1.25rem;
+  border: 1.5px solid rgba(223, 181, 87, 0.45);
+  box-shadow: 0 8px 24px rgba(78, 5, 16, 0.06);
+  overflow: hidden;
+  margin-bottom: 1.75rem;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.ceremony-item-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 32px rgba(116, 10, 24, 0.12);
+  border-color: #dfb557;
+}
+
+.ceremony-item-card.featured-card {
+  border: 2px solid #dfb557;
+  background: linear-gradient(to bottom, #ffffff 0%, #fffcf5 100%);
+  box-shadow: 0 12px 35px rgba(223, 181, 87, 0.22), 0 0 15px rgba(223, 181, 87, 0.15);
+}
+
+.ceremony-accent-line {
+  height: 5px;
+  background: linear-gradient(90deg, #740a18 0%, #dfb557 50%, #740a18 100%);
+}
+
+.ceremony-body {
+  padding: 1.5rem 1.25rem 1.75rem;
+}
+
+@media (min-width: 640px) {
+  .ceremony-body {
+    padding: 2rem 1.75rem;
+  }
+}
+
+.ceremony-name {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #740a18;
+  margin-top: 0.35rem;
+}
+
+.ceremony-subquote {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #634335;
+  line-height: 1.5;
+}
+
+.ceremony-details-box {
+  margin-top: 1.25rem;
+  background: #faf4e8;
+  border-radius: 0.85rem;
+  padding: 1rem;
+  border: 1px solid rgba(223, 181, 87, 0.35);
+}
+
+.featured-details {
+  background: #fff8e7;
+  border-color: rgba(223, 181, 87, 0.6);
+}
+
+.detail-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.detail-row:last-child {
+  margin-bottom: 0;
+}
+
+.row-icon {
+  font-size: 1.15rem;
+  line-height: 1.3;
+}
+
+.row-text-primary {
+  font-weight: 700;
+  color: #381b10;
+  font-size: 0.95rem;
+}
+
+.row-text-sub {
+  font-size: 0.825rem;
+  color: #755243;
+  margin-top: 0.15rem;
+}
+
+.ceremony-actions-row {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.btn-pill-map,
+.btn-pill-cal {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.825rem;
+  font-weight: 700;
+  padding: 0.55rem 1rem;
+  border-radius: 9999px;
+  transition: all 0.2s ease;
+}
+
+.btn-pill-map {
+  background: #740a18;
+  color: #ffffff;
+  border: 1px solid #740a18;
+}
+
+.btn-pill-map:hover {
+  background: #580510;
+  transform: translateY(-1px);
+}
+
+.btn-pill-cal {
+  background: #fffcf5;
+  color: #740a18;
+  border: 1.5px solid #dfb557;
+}
+
+.btn-pill-cal:hover {
+  background: #dfb557;
+  color: #2b1104;
+  transform: translateY(-1px);
+}
+
+.countdown-glass-card {
+  background: linear-gradient(135deg, #ffffff 0%, #fffbf2 100%);
+  border: 2px solid #dfb557;
+  border-radius: 1.5rem;
+  padding: 1.75rem 1.25rem;
+  text-align: center;
+  box-shadow: 0 15px 40px rgba(116, 10, 24, 0.1), 0 0 25px rgba(223, 181, 87, 0.2);
+}
+
+.countdown-digits-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+}
+
+.countdown-cell {
+  background: #740a18;
+  border-radius: 0.85rem;
+  padding: 0.85rem 0.35rem;
+  color: #ffffff;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+  border: 1px solid #dfb557;
+}
+
+.cell-number {
+  display: block;
+  font-size: clamp(1.4rem, 5vw, 2.1rem);
+  font-weight: 800;
+  line-height: 1;
+  color: #ffe682;
+  font-family: var(--font-cinzel), monospace;
+}
+
+.cell-label {
+  display: block;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #f7d5c7;
+  margin-top: 0.35rem;
+}
+
+.couple-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.85rem;
+}
+
+@media (min-width: 640px) {
+  .couple-gallery-grid {
+    gap: 1.25rem;
+  }
+}
+
+.photo-card {
+  position: relative;
+  border-radius: 1.15rem;
+  overflow: hidden;
+  background: #ffffff;
+  border: 1.5px solid rgba(223, 181, 87, 0.5);
+  box-shadow: 0 6px 18px rgba(78, 5, 16, 0.07);
+  cursor: pointer;
+  transition: transform 0.25s ease;
+}
+
+.photo-card:hover {
+  transform: scale(1.02);
+  border-color: #dfb557;
+}
+
+.photo-card-img-wrap {
+  aspect-ratio: 4/5;
+  overflow: hidden;
+}
+
+.photo-card-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.photo-card:hover .photo-card-img-wrap img {
+  transform: scale(1.05);
+}
+
+.photo-card-info {
+  padding: 0.75rem 0.6rem;
+  text-align: center;
+  background: #fffcf5;
+}
+
+.photo-card-title {
+  font-weight: 700;
+  color: #740a18;
+  font-size: 0.85rem;
+}
+
+.photo-card-caption {
+  font-size: 0.725rem;
+  color: #8c6753;
+  margin-top: 0.2rem;
+}

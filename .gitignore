@@ -26,3 +26,11 @@ dist-ssr
 # Generated promo recordings & temp files
 .record-tmp
 public/promo
+
+# Reference folders
+Invitation-main/
+Wedding-Invitation-main/
+wedding-e-invitation-main/
+wedding-invitation/
+wedding-invitation-main/
+wedding-invitation-template-01-main/

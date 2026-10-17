@@ -1,0 +1,70 @@
+{
+  "id": "client-001",
+  "slug": "niveditha-natraj-a8k42",
+  "templateId": "template-01",
+  "brideName": "Niveditha",
+  "groomName": "Natraj",
+  "brideNameTamil": "நிவேதிதா",
+  "groomNameTamil": "நடராஜ்",
+  "parents": {
+    "bride": "Thiru. S. Ramanathan & Thirumathi. R. Meenakshi",
+    "groom": "Thiru. M. Natarajan & Thirumathi. N. Soundarya"
+  },
+  "hashtag": "#NiviWedsNatraj",
+  "photos": {
+    "bride": "/invitations/client-001/bride.jpg",
+    "groom": "/invitations/client-001/groom.jpg",
+    "couple": "/invitations/client-001/couple.jpg"
+  },
+  "events": [
+    {
+      "id": "engagement",
+      "title": "Engagement",
+      "titleTamil": "நிச்சயதார்த்தம்",
+      "date": "2026-10-24",
+      "time": "18:30",
+      "venueName": "Vasantham Mahal",
+      "venueNameTamil": "வசந்தம் மஹால்",
+      "venueAddress": "Thiruparankundram, Madurai",
+      "venueAddressTamil": "திருப்பரங்குன்றம், மதுரை",
+      "mapsUrl": "https://maps.google.com/?q=Vasantham+Mahal+Madurai",
+      "image": "/invitations/client-001/event-engagement.jpg"
+    },
+    {
+      "id": "wedding",
+      "title": "Muhurtham",
+      "titleTamil": "சுபமுகூர்த்தம்",
+      "date": "2026-10-25",
+      "time": "09:00",
+      "venueName": "Sri Meenakshi Kalyana Mandapam",
+      "venueNameTamil": "ஸ்ரீ மீனாட்சி கல்யாண மண்டபம்",
+      "venueAddress": "Melur Main Road, Madurai",
+      "venueAddressTamil": "மேலூர் மெயின் ரோடு, மதுரை",
+      "mapsUrl": "https://maps.google.com/?q=Sri+Meenakshi+Kalyana+Mandapam+Madurai",
+      "image": "/invitations/client-001/event-wedding.jpg"
+    },
+    {
+      "id": "reception",
+      "title": "Reception",
+      "titleTamil": "வரவேற்பு",
+      "date": "2026-10-25",
+      "time": "18:30",
+      "venueName": "The Grand Heritage Lawn",
+      "venueNameTamil": "தி கிராண்ட் ஹெரிடேஜ் லான்",
+      "venueAddress": "Alagarkovil Road, Madurai",
+      "venueAddressTamil": "அழகர்கோவில் ரோடு, மதுரை",
+      "mapsUrl": "https://maps.google.com/?q=Grand+Heritage+Madurai",
+      "image": "/invitations/client-001/event-reception.jpg"
+    }
+  ],
+  "messages": {
+    "customTamil": "எங்கள் இல்லத் திருமண விழாவிற்கு தாங்களும் தங்கள் குடும்பத்தாரும் வருகை தந்து மணமக்களை மனமார வாழ்த்தி அருள அன்புடன் அழைக்கின்றோம்.",
+    "customEnglish": "We cordially invite you and your family to grace the auspicious occasion of our wedding and shower your blessings upon us."
+  },
+  "rsvpPhone": "+91 98765 43210",
+  "musicUrl": "/music.mp3",
+  "expiresAt": "2027-01-01T23:59:00",
+  "status": "published",
+  "createdAt": "2026-10-17T12:00:00.000Z",
+  "updatedAt": "2026-10-17T12:00:00.000Z"
+}

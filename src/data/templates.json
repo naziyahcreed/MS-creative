@@ -1,0 +1,134 @@
+[
+  {
+    "id": "template-01",
+    "name": "Royal Parchment & Petals",
+    "slug": "royal-parchment",
+    "tagline": "Classic Tamil Royal Wedding with Door Reveal & Rose Petals",
+    "description": "An opulent heritage design featuring ceremonial double-door unfolding, interactive falling rose petals, gold filigree ornaments, and dual Tamil-English typography.",
+    "category": "Royal Heritage",
+    "thumbnail": "/templates/template-01/preview.jpg",
+    "accentColor": "#c4a35a",
+    "bgGradient": "from-[#2a1b12] to-[#120c08]",
+    "features": [
+      "Royal Grand Door Reveal Animation",
+      "Interactive Petal Canvas Particle Physics",
+      "Bilingual Tamil & English Support",
+      "Live Countdown to Auspicious Muhurtham",
+      "3-Event Timeline (Engagement, Muhurtham, Reception)",
+      "Interactive Venue Directions & Google Maps",
+      "Curated Wedding Music Player"
+    ],
+    "tags": ["Royal", "Parchment", "Petals", "Door Reveal", "Traditional"],
+    "isAvailable": true
+  },
+  {
+    "id": "template-02",
+    "name": "Authentic Temple Mandapam",
+    "slug": "temple-mandapam",
+    "tagline": "South Indian Sacred Temple Vivaha with Silk Zari & Gopuram",
+    "description": "Richly ornamented with sacred Gopuram arches, glowing kuthuvilakku lamps, auspicious Kolam dividers, holy shlokas, and South Indian wedding traditions.",
+    "category": "Temple Heritage",
+    "thumbnail": "/templates/template-02/preview.jpg",
+    "accentColor": "#dfb557",
+    "bgGradient": "from-[#740a18] to-[#1c050a]",
+    "features": [
+      "Sacred Temple Curtain Reveal",
+      "Golden Toranam & Gopuram Header Arch",
+      "Animated Kuthuvilakku Flame & Auspicious Lamps",
+      "Easy-View High Contrast Reading Toggle",
+      "Authentic Vedic Shlokas & Tamil Invocations",
+      "Detailed Muhurtham Timings & Family Lineage",
+      "Custom Cursor & Ambient Background Particles"
+    ],
+    "tags": ["Temple", "Crimson & Gold", "Gopuram", "Vedic", "Curtain Reveal"],
+    "isAvailable": true
+  },
+  {
+    "id": "template-03",
+    "name": "Pastel Botanical & Floral Romance",
+    "slug": "pastel-floral-romance",
+    "tagline": "Minimalist Soft Sage & Blush with Vinyl Audio Player & Floating Leaves",
+    "description": "Romantic modern botanical design featuring an animated envelope cover, rotating vinyl music player, floating petal drift, couple spotlight, digital wedding gift registry with one-click copy, and interactive RSVP.",
+    "category": "Modern Botanical",
+    "thumbnail": "/templates/template-03/preview.jpg",
+    "accentColor": "#ba9269",
+    "bgGradient": "from-[#fcf9f5] to-[#f4ede4]",
+    "features": [
+      "Interactive Envelope Cover Unfolding",
+      "Floating Spinning Vinyl Record Music Player",
+      "Ambient Falling Botanical Leaf Particles",
+      "Bride & Groom Circular Profile Cards",
+      "Multi-Ceremony Cards with Maps Pin",
+      "Digital Gift / UPI One-Click Copy",
+      "Interactive RSVP & Live Wishes Wall"
+    ],
+    "tags": ["Pastel", "Floral", "Vinyl Music", "Minimalist", "Botanical", "RSVP"],
+    "isAvailable": true
+  },
+  {
+    "id": "template-04",
+    "name": "Western Luxury & Modern Romance",
+    "slug": "western-luxury-romance",
+    "tagline": "Elegant Ivory & Charcoal Romance with Scripture & Individual Bios",
+    "description": "Chic editorial wedding invitation with wax-seal opening, holy matrimony scripture banner, separate bride and groom bio spotlights, wedding itinerary, and digital gift bank cards.",
+    "category": "Western Luxe",
+    "thumbnail": "/templates/template-04/preview.jpg",
+    "accentColor": "#8c6d34",
+    "bgGradient": "from-[#1a1614] to-[#fcfbf9]",
+    "features": [
+      "Wax-Seal Opening Transition",
+      "Holy Scripture & Marriage Vows Banner",
+      "Individual Bride & Groom Spotlight Cards",
+      "Ceremony & Reception Itinerary with Maps",
+      "Wedding Gift Bank Account Copy",
+      "Interactive Blessings & Guestbook Wall",
+      "Floating Minimalist Audio Controls"
+    ],
+    "tags": ["Western", "Luxury", "Wax Seal", "Scripture", "Chic", "Guestbook"],
+    "isAvailable": true
+  },
+  {
+    "id": "template-05",
+    "name": "Midnight Aurora Glassmorphism",
+    "slug": "midnight-aurora-glass",
+    "tagline": "Cyber Violet & Neon Glass with Dress Code Guide & Stacked Gallery",
+    "description": "State-of-the-art dark glassmorphism wedding invitation with glowing violet gradients, circular couple splash reveal, wedding attire style guide, interactive agenda timeline, live wishing wall, and FAQ accordion.",
+    "category": "Dark Glassmorphism",
+    "thumbnail": "/templates/template-05/preview.jpg",
+    "accentColor": "#a855f7",
+    "bgGradient": "from-[#0B0F19] via-[#150B26] to-[#1F0A3A]",
+    "features": [
+      "Glowing Circular Avatar Splash Reveal",
+      "Backdrop Blur Glassmorphism Cards",
+      "Live Countdown Timer with Glowing Blocks",
+      "Wedding Attire & Dress Code Guide",
+      "Color-Coded Agenda Timeline",
+      "Pre-Shoot Moments Photo Gallery",
+      "Live Wishing Wall & FAQs Accordion"
+    ],
+    "tags": ["Midnight", "Neon Glass", "Attire Guide", "Cyber Luxe", "FAQs"],
+    "isAvailable": true
+  },
+  {
+    "id": "template-06",
+    "name": "Royal Taj Heritage & Floral Grandeur",
+    "slug": "royal-taj-heritage",
+    "tagline": "Grand Heritage with Royal Palace Arches, Crimson Gold & Editorial Gallery",
+    "description": "Majestic luxury royal wedding invitation featuring bespoke couple monogram crest, Taj Mahal gold filigree arches, romantic pond illustration, sacred Muhurtham countdown, and editorial masonry gallery.",
+    "category": "Royal Grandeur",
+    "thumbnail": "/templates/template-06/preview.jpg",
+    "accentColor": "#7a1c1d",
+    "bgGradient": "from-[#54141a] to-[#fffdfa]",
+    "features": [
+      "Royal Couple Monogram Crest",
+      "Palace Gold Filigree Arches",
+      "Editorial Asymmetric Masonry Gallery",
+      "Sacred Muhurtham Live Countdown",
+      "Interactive Google Maps & Directions",
+      "Google Calendar & .ICS Integration",
+      "Live Blessings & Digital Shagun UPI"
+    ],
+    "tags": ["Royal Heritage", "Crimson Gold", "Muhurtham", "Palace Luxury", "Editorial"],
+    "isAvailable": true
+  }
+]

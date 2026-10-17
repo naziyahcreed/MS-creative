@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "server": "node scripts/save-invitation.mjs",
-    "build": "vite build",
+    "build": "vite build && cp dist/index.html dist/404.html",
     "lint": "oxlint",
     "preview": "vite preview",
     "record:instagram": "npm run build && node scripts/record-instagram.mjs"

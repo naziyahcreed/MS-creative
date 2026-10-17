@@ -1,12 +1,23 @@
 import { useParams, Link } from 'react-router-dom'
 import { getAllTemplates, getTemplateById } from '../utils/templateRegistry'
 
-export default function TemplatePreview() {
-  const { templateId } = useParams()
+export default function TemplatePreview({ templateIdProp }) {
+  const { templateId: paramId } = useParams()
+  const templateId = templateIdProp || paramId
   const all = getAllTemplates()
+  const normalizedId = templateId?.startsWith('template-')
+    ? templateId
+    : `template-${String(templateId).padStart(2, '0')}`
+
   const template =
-    all.find((t) => t.id === templateId || t.slug === templateId) ||
-    getTemplateById(templateId)
+    all.find(
+      (t) =>
+        t.id === templateId ||
+        t.id === normalizedId ||
+        t.slug === templateId
+    ) ||
+    getTemplateById(templateId) ||
+    getTemplateById(normalizedId)
 
   if (!template || !template.component) {
     return (
